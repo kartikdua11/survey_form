@@ -1,0 +1,64 @@
+
+
+
+
+
+
+body{
+    background-image: url(back.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
+#title{
+    text-align: center;
+    font-family:  serif;
+    color: white;
+    padding-top:5vw;
+}
+#description{
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI';
+    line-height:1vw;
+}
+#box{
+    background-color:#2B2B49;
+    opacity:0.7;
+    border-radius:15px;
+    max-width: 750px;
+    height:auto;
+    margin:0 auto;
+    padding: 5%;
+    
+}
+#headings,#name-label,#email-label,#number-label{
+    color:white;
+    font-size: 19px;
+
+}
+#name,#email,#number,#dropdown{
+    border-radius:4px;
+    width:100%;
+    margin-top: 8px ;
+    border: 1px solid rgb(5, 0, 0);
+    padding: 12px;
+    
+}
+textarea{
+    border-radius:4px;
+    width:100%;
+    margin-top: 8px ;
+    border: 1px solid rgb(5, 0, 0);
+    padding: 12px;
+
+}
+#submit{
+    border-radius:4px;
+    width:100%;
+    margin-top: 8px ;
+    border: 1px solid rgb(5, 0, 0);
+    padding: 12px;
+    background-color:orange;
+
+}
